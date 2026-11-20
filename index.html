@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SSRF Test</title>
+</head>
+<body>
+    <h1>SSRF Test Page</h1>
+    <p>Attempting to load internal resources:</p>
+    <img src="http://169.254.169.254/latest/meta-data/">
+    <img src="http://127.0.0.1:6379/">
+</body>
+</html>
